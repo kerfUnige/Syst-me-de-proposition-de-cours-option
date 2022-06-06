@@ -1,0 +1,19 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+    <div class="container">
+        <form action="/proposition_cours" method="post">
+            <div class="mb-3">
+                <label for="Num_immatriculation">Numéro d'immatriculation</label>
+                <input type="text" class="form-control" id="Num_immatriculation" placeholder="32-560-798"
+                       name="num_immatriculation" , required>
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Soumettre</button>
+
+        </form>
+
+    </div>
+
+
+{% endblock %}

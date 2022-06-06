@@ -1,0 +1,36 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+    <br>
+    <h1 STYLE="color: brown; font-style: italic">
+        Système de proposition de cours à option.
+    </h1>
+    <div style="text-align: justify">
+        <p>Choisir des cours à option peut facilement être une tâche qui se fait avec peine pour les étudiants,
+            car il faut, d’une part, identifier les cours qui pourraient les intéressés parmi tous les cours disponibles
+            à l’université et, d’autre part, vérifier que le suivi de ces cours puisse être possible en fonction de
+            leurs
+            horaires obligatoires du semestre. Le but du projet est donc de répondre à cette problématique en créant un
+            service
+            accessible sur une plateforme web, qui propose des cours à option pour le semestre aux étudiants du bachelor
+            en
+            système
+            d'information et science des services, et qui génère un calendrier en fonction du cours choisi.
+            Le calendrier contiendra en plus du cours à option choisi, les cours obligatoires du semestre.
+            La proposition des cours à option sera entièrement basée sur le profil des étudiants (centre d’intérêts, cours à option déjà suivis, année et période d'étude courante)
+            et de leurs horaires de disponibilité afin que les cours proposés ne soit pas en conflit avec les cours obligatoires du semestre.
+            Quelque soit l'année et le semestre, les cours obligatoires du bachelor n'apparaîtront pas dans la liste des
+            cours à option proposé par la plateforme.</p><br>
+
+        <p style="text-align: center; font-weight: bold">
+            La création d'un compte étudiant est nécessaire pour la proposition de cours à options.
+        </p>
+
+        <p style="text-align: center">Veillez remplir le <a href="{{ url_for('formulaire_proposition') }}" style="font-weight: bold">formulaire</a> pour la
+            proposition de cours à option.
+        </p>
+
+    </div>
+
+
+{% endblock content %}

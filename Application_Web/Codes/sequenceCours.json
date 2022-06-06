@@ -1,0 +1,40 @@
+{
+    "1": [
+      "Principes de fonctionnement des ordinateurs",
+      "Langages formels",
+      "Modélisation des systèmes d'information et des services",
+      "Introduction à la programmation"
+    ],
+    "2": [
+      "Bases de données",
+      "Algorithmique appliquée",
+      "Logiciels et réseaux informatiques"
+    ],
+    "3": [
+      "Fondements formels des systèmes d'information",
+      "Outils formels de modélisation",
+      "Réseaux de communication",
+      "Séminaire de langages de programmation",
+      "Mashups, contextualisation et qualité des services",
+      "Analyse des objectifs"
+    ],
+    "4": [
+      "Environnements collaboratifs de développement logiciel",
+      "Interface personne-machine",
+      "Projet transversal I",
+      "Projet transversal 1",
+      "Introduction à la sécurité, éthique et réglementation des services",
+      "Gestion de projet",
+      "Services et technologies multimédia"
+    ],
+    "5": [
+      "Design Science",
+      "Projet transversal II",
+      "Projet transversal 2"
+    ],
+    "6": [
+      "Bases de données avancées",
+      "Projet de recherche en systèmes d'information",
+      "Système d'information d'entreprise"
+    ]
+  }

@@ -1,0 +1,340 @@
+{
+    "creation": {
+      "when": null,
+      "who": null
+    },
+    "lastUpdate": {
+      "when": null,
+      "who": null
+    },
+    "entityId": "2021-D200002",
+    "academicalYear": "2021",
+    "code": "D200002",
+    "title": "Projet transversal I",
+    "facultyId": "748",
+    "shortFaculty": "CUI",
+    "facultyLabel": "Centre universitaire d'informatique",
+    "studyLevel": "Bachelor",
+    "credits": 3.0,
+    "activities": [
+      {
+        "creation": {
+          "when": null,
+          "who": null
+        },
+        "lastUpdate": {
+          "when": null,
+          "who": null
+        },
+        "entityId": "133458",
+        "code": "D200002PR01",
+        "title": "Projet transversal I",
+        "subtitle": null,
+        "englishTitle": "Interdisciplinary Project 1",
+        "type": "Projet",
+        "shortType": "PR",
+        "duration": null,
+        "given": true,
+        "displayNotGiven": null,
+        "displayDuration": "projet, printemps",
+        "scheduleText": null,
+        "periodicity": "Printemps",
+        "shortPeriodicity": "P",
+        "objective": null,
+        "description": "Le projet transverse I est un séminaire transverse à plusieurs cours: Analyse des Objectifs, Fondements formels des SI, Algorithmique appliquée et Bases de données.\nSon but est de permettre aux étudiants de travailler un même projet informatique dans les différentes dimensions étudiées durant les cours en question. \nLes étudiants vont donc analyser les objectifs du projet, en faire une conception et modélisation, et finalement l'implémenter. L'accent est mis sur le développement d'une base de donnée relationnelle et d'un service exploitant la base de données.\n \nLes domaines d'application sont divers: transports publics, médical, environnemental, réseaux sociaux, services de recommandation etc.\n \nLes projets sont dans la mesure du possible proposés par des entreprises ou organisations. \n \nLes étudiants devront:\n1. rendre plusieurs rapports complets détaillant les différentes dimensions mentionnées ci-dessus, \n2. Présenter oralement le travail\n3. Fournir une démonstration et le code de leur projet.\n \nDurant ce séminaire, les étudiants sont accompagnés chaque semaine  sur le plan technique par un assisant.\nUn suivi régulier de l'avancement global du projet aura lieu chaque 2 à 3 fois pendant le semestre.",
+        "codeLanguage": "FR",
+        "language": "français",
+        "languageForSearch": "français",
+        "shortEvaluation": null,
+        "evaluation": null,
+        "evaluationComment": "Session ordinaire:\nPlusieurs rendus intermédiaires (présentations, rapports, code, démonstrations): totalisant 40% de la note finale.\nUn rendu final (présentations, rapports, code, démonstrations): valant 60% de la note finale.\nModalité de rattrapage: Mêmes conditons que pour la session ordinaire.\nLes notes des rendus intermédiaires sont conservées.",
+        "recommended": "D200008 Algorithmique appliquée\nD200025 Bases de données.\nD200005 Introduction à la programmation\nD200013 Analyse des objectifs\nD200009 Fondements formels des SI",
+        "bibliography": null,
+        "variousInformation": null,
+        "teachingId": "2021-D200002",
+        "comment": "Printemps",
+        "intended": null,
+        "listenerAccepted": false,
+        "publicAccepted": false,
+        "courses": [
+          {
+            "creation": {
+              "when": null,
+              "who": null
+            },
+            "lastUpdate": {
+              "when": null,
+              "who": null
+            },
+            "entityId": "53161",
+            "activityId": "133458",
+            "shortDay": "Je",
+            "day": "Jeudi",
+            "startHour": 14,
+            "endHour": 16,
+            "time": "14h00-16h00",
+            "frequency": "hebdo",
+            "comment": null,
+            "building": "Battelle",
+            "room": "D Amphi",
+            "teachingId": "2021-D200002",
+            "periodicity": "Printemps",
+            "shortPeriodicity": "P",
+            "duration": "2h",
+            "participantCount": 104,
+            "resId": "53161"
+          }
+        ],
+        "activityTeachers": [
+          {
+            "creation": {
+              "when": null,
+              "who": null
+            },
+            "lastUpdate": {
+              "when": null,
+              "who": null
+            },
+            "entityId": "133458-2021-914615",
+            "activityId": "133458",
+            "personId": "914615",
+            "teacherId": "2021-914615",
+            "teachingId": "2021-D200002",
+            "displayFirstName": "Ashley",
+            "displayLastName": "Caselli",
+            "displayFonction": "Assistant-e",
+            "contactInfos": [
+              {
+                "creation": {
+                  "when": null,
+                  "who": null
+                },
+                "lastUpdate": {
+                  "when": null,
+                  "who": null
+                },
+                "entityId": "6302732",
+                "teacherId": "914615",
+                "name": "CASELLI",
+                "firstName": "ASHLEY",
+                "title": "M.",
+                "function": "Assistant-e",
+                "structure": "SERVICES COMMUNS SDS",
+                "officeNumber": "415",
+                "building": "BAT A",
+                "phoneNumber": "022 379 06 16",
+                "faxNumber": null,
+                "email": "Ashley.Caselli@unige.ch",
+                "buildingName": "Battelle Bâtiment A",
+                "street": "ROUTE DE DRIZE 7",
+                "zipCode": "1227",
+                "locality": "CAROUGE",
+                "officeName": "BAT A 415",
+                "visible": true,
+                "resId": "6302732"
+              }
+            ],
+            "resId": "133458-2021-914615"
+          },
+          {
+            "creation": {
+              "when": null,
+              "who": null
+            },
+            "lastUpdate": {
+              "when": null,
+              "who": null
+            },
+            "entityId": "133458-2021-28107",
+            "activityId": "133458",
+            "personId": "28107",
+            "teacherId": "2021-28107",
+            "teachingId": "2021-D200002",
+            "displayFirstName": "Giovanna",
+            "displayLastName": "Di Marzo Serugendo",
+            "displayFonction": "Professeur-e ordinaire",
+            "contactInfos": [
+              {
+                "creation": {
+                  "when": null,
+                  "who": null
+                },
+                "lastUpdate": {
+                  "when": null,
+                  "who": null
+                },
+                "entityId": "6298840",
+                "teacherId": "28107",
+                "name": "DI MARZO SERUGENDO",
+                "firstName": "GIOVANNA",
+                "title": "Mme",
+                "function": "Professeur-e ordinaire",
+                "structure": "SERVICES COMMUNS SDS",
+                "officeNumber": "235",
+                "building": "BAT A",
+                "phoneNumber": "022 379 00 72",
+                "faxNumber": null,
+                "email": "Giovanna.DiMarzo@unige.ch",
+                "buildingName": "Battelle Bâtiment A",
+                "street": "ROUTE DE DRIZE 7",
+                "zipCode": "1227",
+                "locality": "CAROUGE",
+                "officeName": "BAT A 235",
+                "visible": true,
+                "resId": "6298840"
+              }
+            ],
+            "resId": "133458-2021-28107"
+          },
+          {
+            "creation": {
+              "when": null,
+              "who": null
+            },
+            "lastUpdate": {
+              "when": null,
+              "who": null
+            },
+            "entityId": "133458-2021-21903",
+            "activityId": "133458",
+            "personId": "21903",
+            "teacherId": "2021-21903",
+            "teachingId": "2021-D200002",
+            "displayFirstName": "Gilles",
+            "displayLastName": "Falquet",
+            "displayFonction": "Professeur-e associé-e",
+            "contactInfos": [
+              {
+                "creation": {
+                  "when": null,
+                  "who": null
+                },
+                "lastUpdate": {
+                  "when": null,
+                  "who": null
+                },
+                "entityId": "6298422",
+                "teacherId": "21903",
+                "name": "FALQUET",
+                "firstName": "GILLES",
+                "title": "M.",
+                "function": "Professeur-e associé-e",
+                "structure": "RECHERCHE ET ENSEIGNEMENT GSEM",
+                "officeNumber": "414",
+                "building": "BAT A",
+                "phoneNumber": "022 379 01 62",
+                "faxNumber": null,
+                "email": "Gilles.Falquet@unige.ch",
+                "buildingName": "Battelle Bâtiment A",
+                "street": "ROUTE DE DRIZE 7",
+                "zipCode": "1227",
+                "locality": "CAROUGE",
+                "officeName": "BAT A 414",
+                "visible": true,
+                "resId": "6298422"
+              }
+            ],
+            "resId": "133458-2021-21903"
+          },
+          {
+            "creation": {
+              "when": null,
+              "who": null
+            },
+            "lastUpdate": {
+              "when": null,
+              "who": null
+            },
+            "entityId": "133458-2021-134106",
+            "activityId": "133458",
+            "personId": "134106",
+            "teacherId": "2021-134106",
+            "teachingId": "2021-D200002",
+            "displayFirstName": "Jolita",
+            "displayLastName": "Ralyte",
+            "displayFonction": "Maître d'enseignement et de recherche",
+            "contactInfos": [
+              {
+                "creation": {
+                  "when": null,
+                  "who": null
+                },
+                "lastUpdate": {
+                  "when": null,
+                  "who": null
+                },
+                "entityId": "6300150",
+                "teacherId": "134106",
+                "name": "RALYTE",
+                "firstName": "JOLITA",
+                "title": "Mme",
+                "function": "Maître d'enseignement et de recherche",
+                "structure": "CENTRE UNIV. D'INFORMATIQUE",
+                "officeNumber": "231",
+                "building": "BAT A",
+                "phoneNumber": "022 379 02 45",
+                "faxNumber": "90228",
+                "email": "Jolita.Ralyte@unige.ch",
+                "buildingName": "Battelle Bâtiment A",
+                "street": "ROUTE DE DRIZE 7",
+                "zipCode": "1227",
+                "locality": "CAROUGE",
+                "officeName": "BAT A 231",
+                "visible": true,
+                "resId": "6300150"
+              }
+            ],
+            "resId": "133458-2021-134106"
+          }
+        ],
+        "resId": "133458"
+      }
+    ],
+    "departments": [
+      {
+        "entityId": "2021748",
+        "teachingId": "2021-D200002",
+        "code": "CUINF",
+        "label": "Centre universitaire d'informatique"
+      }
+    ],
+    "domains": [],
+    "teachingLinks": [],
+    "listStudyPlan": [
+      {
+        "creation": {
+          "when": null,
+          "who": null
+        },
+        "lastUpdate": {
+          "when": null,
+          "who": null
+        },
+        "entityId": "158767",
+        "academicalYear": "2021",
+        "teachingOrder": "70",
+        "planCredits": "3",
+        "teachingId": "2021-D200002",
+        "studyPlanGroupId": "64682",
+        "studyPlanPath": "Baccalauréat univ. en systèmes d'information et science des services - plan 2019/Enseignements obligatoires (114 crédits)",
+        "studyPlanId": "64679",
+        "studyPlanLabel": "Baccalauréat univ. en systèmes d'information et science des services - plan 2019",
+        "facultyId": "748",
+        "facultyCode": "CUI",
+        "facultyLabel": "Centre universitaire d'informatique",
+        "resId": "158767"
+      }
+    ],
+    "resId": "2021-D200002",
+    "_links": {
+      "self": {
+        "href": "https://wwwit.unige.ch/cursus/programme-des-cours/api/teachings/2021-D200002"
+      },
+      "list": {
+        "href": "https://wwwit.unige.ch/cursus/programme-des-cours/api/teachings"
+      },
+      "module": {
+        "href": "https://wwwit.unige.ch/cursus/programme-des-cours/api"
+      }
+    }
+  }

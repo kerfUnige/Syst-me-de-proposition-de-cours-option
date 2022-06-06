@@ -1,0 +1,10 @@
+Pipenv est un gestionnaire de package python.
+https://pipenv.pypa.io/en/latest/
+pour voir les commandes qu'on peut faire avec pipenv, il faut entrer depuis le terminal: python3 -m pipenv
+Commande essentiel.
+
+- python3 -m pipenv shell: permet de lancer le shell pour pipenv dans notre environnement de développement courant
+
+- pipe3 freeze: montre toutes les dependances qu'on a dans notre environnement de développement.
+
+

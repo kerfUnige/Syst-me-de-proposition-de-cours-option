@@ -1,0 +1,23 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+
+    <dl>
+        <dt>Objectif</dt>
+        <dd>{{ cours[3] }}</dd>
+        <dt>Descriptif</dt>
+        <dd>{{ cours[4] }}</dd>
+        <dt>Nombre de crédits</dt>
+        <dd>{{ cours[5] }}</dd>
+        <dt>Crédits total gagnés en prenant ce cours</dt>
+        <dd>{{ total_credits }}</dd>
+        {% if message_important==True %}
+            <dt>Important</dt>
+            <dd>{{ cours[-1] }} {{ cours[-2] }}</dd>
+        {% endif %}
+        <a href="{{ url_for('calendrier', id_cours=cours[0], no_immatriculation=num_immatriculation) }}"
+           style="font-weight: bold">GÉNÉRER LE
+            CALENDRIER</a>
+    </dl>
+
+{% endblock content %}

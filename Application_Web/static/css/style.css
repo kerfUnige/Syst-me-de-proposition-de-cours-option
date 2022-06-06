@@ -1,0 +1,35 @@
+.email {
+    color: wheat;
+    font-style: italic;
+}
+
+dt {
+    color: darkred;
+}
+
+dd {
+    text-align: justify;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+th {
+    background: wheat;
+    color: black;
+    font-weight: bold;
+}
+
+.cours_ob {
+    background: cornflowerblue;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.cours_nonOb {
+    background: cadetblue;
+    padding: 5px;
+    font-weight: bold;
+}

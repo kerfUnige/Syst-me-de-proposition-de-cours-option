@@ -1,0 +1,24 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+
+    {% if existe==True %}
+
+        <h3>Proposition de cours à option pour <strong style="color: brown">{{ nom }} {{ prenom }}</strong></h3><br>
+        <ul>
+            {% for cours in cours_proposes %}
+
+                <li><a href="{{ url_for('description_cours', id_cours=cours[0], no_immatriculation=num_immatriculation) }}"
+                       style="color: black; text-decoration: none;"> {{ cours[0] }}-{{ cours[1] }}</a></li>
+
+            {% endfor %}
+
+        </ul>
+
+    {% else %}
+        <h3>Le numéro d'immatriculation <strong style="color: brown">{{ num_immatriculation }}</strong> n'existe pas dans
+            le système</h3><br>
+    {% endif %}
+
+
+{% endblock content %}

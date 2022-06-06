@@ -1,0 +1,36 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+
+    <!-- tableau de calendrier (semainier) -->
+    <div style="display: flex; justify-content: space-between;">
+        <p style="color: cornflowerblue;font-weight: bold">Cours obligatoires</p>
+        <p style="color: cadetblue; font-weight: bold">Options</p>
+    </div>
+
+    <table>
+        <tr>
+            <th style="font-style: italic">Temps</th>
+            <th>Lundi</th>
+            <th>Mardi</th>
+            <th>Mercredi</th>
+            <th>Jeudi</th>
+            <th>Vendredi</th>
+        </tr>
+        {% for ligne in planning %}
+            <tr>
+                <td>{{ loop.index + 7 }}h</td>
+                {% for cours in ligne %}
+                    {% if cours is not none and cours[1] != -1 %}
+                        <td rowspan="{{ cours[1] }}" , class="{{ cours[2] }}">{{ cours[0] }}</td>
+                    {% elif cours is none %}
+                        <td>---</td>
+                    {% endif %}
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+
+
+
+{% endblock content %}

@@ -1,0 +1,9 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+    {% if existe==True %}
+    <h3>Votre compte a été modifier avec succès !</h3>
+    {% else %}
+     <h3>Ce numéro d'immatriculation n'existe pas dans le système !</h3>
+    {% endif %}
+{% endblock content %}

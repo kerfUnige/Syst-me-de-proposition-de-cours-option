@@ -1,0 +1,11 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+    <!-- Si l'étudiant existe dans la base de données, tailleResp ne vaudar pas 0 -->
+    {% if tailleResp  != 0 %}
+        <h3>Le numero d'imatriculation <strong>{{ num_immatriculation }}</strong> existe déjà dans le système</h3>
+    {% else %}
+        <h3 style="color: brown">Votre compte a été créer avec succès !</h3>
+    {% endif %}
+
+{% endblock content %}

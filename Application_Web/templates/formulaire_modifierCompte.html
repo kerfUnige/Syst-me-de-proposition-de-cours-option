@@ -1,0 +1,61 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+
+    <div class="container">
+
+        <form action="/modifier_compte" method="post">
+
+            <!-- Ce formulaire permet à l'utilisateur de modifier son compte -->
+            <!-- Seule le semestre d'étude, les cours suivis, les centres d'intérêts et le semestre d'étude peut être modifier -->
+            <div class="mb-3">
+                <label for="Num_immatriculation">Numéro d'immatriculation</label>
+                <input type="text" class="form-control" id="Num_immatriculation" placeholder="32-560-798"
+                       name="num_immatriculation" , required>
+            </div>
+
+            <div class="mb-3">
+                <label for="Semestre_etude">Semestre d'étude</label>
+                <select class="form-select" name="semestre_etude">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="ecraser_centres_interets">Écraser les centres d'intérêts</label>
+                <select class="form-select" name="ecraser_centres_interets">
+                    <option value="OUI">OUI</option>
+                    <option value="NON">NON</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="Centre_interets">Centres d'intérêts</label>
+                <textarea class="form-control" id="Centre_interets" rows="3"
+                          placeholder="programmation, machine learning" name="centre_interets"></textarea>
+                <div id="Warning" class="form-text" style="color: darkred;font-style: italic">les mots doivent être
+                    séparés par des virgules.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="Cours_suivis">Cours à option suivis</label>
+                <textarea class="form-control" id="Cours_suivis" rows="3"
+                          placeholder="D20008, D20009" name="cours_suivis"></textarea>
+                <div id="Warning" class="form-text" style="color: darkred;font-style: italic">les codes de cours doivent
+                    être séparés par des virgules.
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Soumettre</button>
+
+        </form>
+
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,6 @@
+projectKey=projetTransverse1
+serverUrl=http://localhost:9000
+serverVersion=9.4.0.54424
+dashboardUrl=http://localhost:9000/dashboard?id=projetTransverse1
+ceTaskId=AYE1d7qL1w-UQSA0xPmr
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYE1d7qL1w-UQSA0xPmr
